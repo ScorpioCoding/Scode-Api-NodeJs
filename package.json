@@ -1,6 +1,6 @@
 {
   "name": "@scorpiocoding/scode-api-nodejs",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "NodeJs Api Server",
   "keywords": [
     "NodeJs",
@@ -10,12 +10,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com/ScorpioCoding/Scode-Api-NodeJs.git"
+    "url": "git@github.com/ScorpioCoding/Scode-Api-NodeJs-Cli.git"
   },
   "bugs": {
-    "url": "https://github.com/ScorpioCoding/Scode-Api-NodeJs/issues"
+    "url": "https://github.com/ScorpioCoding/Scode-Api-NodeJs-Cli/issues"
   },
-  "homepage": "https://github.com/ScorpioCoding/Scode-Api-NodeJs#readme",
+  "homepage": "https://github.com/ScorpioCoding/Scode-Api-NodeJs-Cli#readme",
   "license": "ISC",
   "author": "https://scorpiocoding.com",
   "type": "module",

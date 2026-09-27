@@ -6,8 +6,8 @@ Scode-api-nodejs creates a nodejs express api server that you can modify, make y
 
 ## Creater/ Maintainer
 
-=> ScorpioCoding
-=> Design, Development, DevOps
+=> ScorpioCoding  
+=> Design, Development, DevOps  
 => [website](https://scorpiocoding.com)
 
 ## Installation
