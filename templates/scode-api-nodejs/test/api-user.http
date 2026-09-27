@@ -1,0 +1,66 @@
+### FOR TESTING YOU NEED VSCODE EXTENTION "REST Client" from Huachao Mao
+
+### GET ALL USERS
+GET http://localhost:4000/v1/user HTTP/1.1
+
+
+
+### GET USER BY ID
+GET http://localhost:4000/v1/user/1 HTTP/1.1
+Authorization: Bearer 
+
+
+### CREATE MASTER USER SUPER 
+POST http://localhost:4000/v1/user/master HTTP/1.1
+content-type: application/json
+
+{
+  "name": "kribo",
+  "email": "kribo@scorpiocoding.com",
+  "password": "ChangeMe01",
+  "realm": "super"
+}
+
+### CREATE USER 2 ADMIN
+POST http://localhost:4000/v1/user HTTP/1.1
+content-type: application/json
+Authorization: Bearer 
+
+{
+  "name": "Caitlin",
+  "email": "oeps@scorpiocoding.com",
+  "password": "ChangeMe01",
+  "realm": "admin"
+}
+
+
+### UPDATE USER
+PUT http://localhost:4000/v1/user HTTP/1.1
+content-type: application/json
+Authorization: Bearer 
+
+{
+  "id": 7,
+  "name": "caitlin",
+  "email": "caitlin@scorpiocoding.com"
+}
+
+
+### DELETE USER
+DELETE http://localhost:4000/v1/user HTTP/1.1
+content-type: application/json
+Authorization: Bearer 
+
+{
+  "id": 2
+}
+
+
+### LOGIN USER 1
+POST http://localhost:4000/v1/user/login HTTP/1.1
+content-type: application/json
+
+{
+  "email": "kribo@scorpiocoding.com",
+  "password": "ChangeMe01"
+}

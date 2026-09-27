@@ -1,0 +1,9 @@
+### SEND EMAIL
+POST http://localhost:4000/v1/email HTTP/1.1
+content-type: application/json
+
+{
+  "to": "kribo@outlook.com",
+  "subject": "Testing email services",
+  "text": "Testing email services text."
+}

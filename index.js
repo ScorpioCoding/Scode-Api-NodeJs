@@ -15,7 +15,7 @@ const CHOICES = fs.readdirSync(`${__dirname}/templates`);
 const QUESTIONS = [
   {
     name: "project-choice",
-    type: "list",
+    type: "rawlist",
     message: "What project template would you like to generate?",
     choices: CHOICES,
   },

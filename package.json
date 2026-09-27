@@ -1,6 +1,6 @@
 {
-  "name": "scode-api-nodejs",
-  "version": "1.0.0",
+  "name": "@scorpiocoding/scode-api-nodejs",
+  "version": "1.0.1",
   "description": "NodeJs Api Server",
   "keywords": [
     "NodeJs",
